@@ -107,8 +107,6 @@ Este projeto visa demonstrar conceitos importantes de redes e programação com 
 Amanda Machado
 
 ## 📬 Contato
-**Email:**
-amandakeziamachado@gmail.com
 
 **LinkedIn:**
 www.linkedin.com/in/amanda-machado-a78b43215
