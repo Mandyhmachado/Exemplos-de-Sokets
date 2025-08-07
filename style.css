@@ -1,0 +1,108 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 3em;
+    line-height: 1.8;
+    color: #333;
+    background-color: #f7f7f7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: background-color 0.3s ease; 
+}
+
+h1, h2 {
+    color: #2c3e50;
+    font-weight: 400;
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+h2 {
+    font-size: 1.8em;
+    color: #555;
+}
+
+#interacao {
+    background-color: #e0f2f7; 
+    padding: 2.5em;
+    margin-bottom: 2em;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); 
+    width: 80%;
+    max-width: 600px;
+    text-align: center;
+    border: 1px solid #b2ebf2; 
+    transition: box-shadow 0.3s ease; 
+}
+
+#interacao:hover {
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.15); 
+}
+
+#interacao p {
+    color: #555;
+    margin-bottom: 1.5em;
+    font-size: 1.05em; 
+}
+
+#qrcode {
+    background-color: #fff;
+    padding: 2em;
+    margin-bottom: 2em;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);
+    width: 80%;
+    max-width: 600px;
+    text-align: center;
+}
+
+#qrcode p {
+    color: #555;
+    margin-bottom: 1.2em;
+    font-size: 1em;
+}
+
+#qrcode a {
+    display: inline-block; 
+    padding: 1em 2em;
+    background-color: #3498db; 
+    color: #fff; 
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+#qrcode a:hover {
+    background-color: #2980b9; 
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+    text-decoration: none;
+}
+
+#qrcode img {
+    max-width: 150px; 
+    height: auto;
+    display: block;
+    margin: 0.5em auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.03);
+}
+
+hr {
+    border: 1px solid #eee;
+    margin: 4em 0;
+    width: 60%;
+}
+
+p.servidor {
+    font-size: 0.9em;
+    color: #777;
+    text-align: center;
+    margin-top: 3em;
+}
